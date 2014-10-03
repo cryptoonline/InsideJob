@@ -20,6 +20,6 @@ Soteris Demetriou (http://soterisdemetriou.com/), University of Illinois at Urba
 
 XiaoFeng Wang, Indiana University at Bloomington
 
-Carl A Gunter, University of Illinois at Urbana-Champaign
+Carl A. Gunter, University of Illinois at Urbana-Champaign
 
 
