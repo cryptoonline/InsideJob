@@ -11,10 +11,15 @@ Data Injection Attacks:
 The variables (e.g. Bluetooth MAC address of the device or pin code of the device) in data injection attack app varies depending upon on the device. So, these things need to be adjusted according to the devices in hand.
 
 Authors:
+
 Muhammad Naveed (http://cryptoonline.com), University of Illinois at Urbana-Champaign
+
 Xiaoyong Zhou, Indiana University at Bloomington
+
 Soteris Demetriou (http://soterisdemetriou.com/), University of Illinois at Urbana-Champaign
+
 XiaoFeng Wang, Indiana University at Bloomington
+
 Carl A Gunter, University of Illinois at Urbana-Champaign
 
 
