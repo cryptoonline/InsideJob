@@ -36,32 +36,6 @@ function handle_bodymedia_data($con){
 	
 	mysqli_query($con, $query);
 	
-	/*
-	echo "<input type=\"hidden\" name=\"batteryLevel\" value\"".  $_POST['batteryLevel'] ."\">";
-	echo "<input type=\"hidden\" name=\"memoryLevel\" value\"".  $_POST['memoryLevel'] ."\">";
-	echo "<input type=\"hidden\" name=\"stepsToday\" value\"".  $_POST['stepsToday'] ."\">";
-	echo "<input type=\"hidden\" name=\"stepsYesterday\" value\"".  $_POST['stepsYesterday'] ."\">";
-	echo "<input type=\"hidden\" name=\"stepsCumulative\" value\"".  $_POST['stepsCumulative'] ."\">";
-	echo "<input type=\"hidden\" name=\"caloriesToday\" value\"".  $_POST['caloriesToday'] ."\">";
-	echo "<input type=\"hidden\" name=\"caloriesYesterday\" value\"".  $_POST['caloriesYesterday'] ."\">";
-	echo "<input type=\"hidden\" name=\"caloriesCumulative\" value\"".  $_POST['caloriesCumulative'] ."\">";
-	echo "<input type=\"hidden\" name=\"metsToday\" value\"".  $_POST['metsToday'] ."\">";
-	echo "<input type=\"hidden\" name=\"metsYesterday\" value\"".  $_POST['metsYesterday'] ."\">";
-	echo "<input type=\"hidden\" name=\"metsCurrent\" value\"".  $_POST['metsCurrent'] ."\">";
-	echo "<input type=\"hidden\" name=\"moderateActivityToday\" value\"".  $_POST['moderateActivityToday'] ."\">";
-	echo "<input type=\"hidden\" name=\"moderateActivityYesterday\" value\"".  $_POST['moderateActivityYesterday'] ."\">";
-	echo "<input type=\"hidden\" name=\"moderateActivityCumulative\" value\"".  $_POST['moderateActivityCumulative'] ."\">";
-	echo "<input type=\"hidden\" name=\"vigorousActivityToday\" value\"".  $_POST['vigorousActivityToday'] ."\">";
-	echo "<input type=\"hidden\" name=\"vigorousActivityYesterday\" value\"".  $_POST['vigorousActivityYesterday'] ."\">";
-	echo "<input type=\"hidden\" name=\"vigorousActivityCumulative\" value\"".  $_POST['vigorousActivityCumulative'] ."\">";
-	echo "<input type=\"hidden\" name=\"heartbeats\" value\"".  $_POST['heartbeats'] ."\">";
-	echo "<input type=\"hidden\" name=\"heartRate\" value\"".  $_POST['heartRate'] ."\">";
-	echo "<input type=\"hidden\" name=\"walkingDistanceToday\" value\"".  $_POST['walkingDistanceToday'] ."\">";
-	echo "<input type=\"hidden\" name=\"walkingDistanceYesterday\" value\"".  $_POST['walkingDistanceYesterday'] ."\">";
-	echo "<input type=\"hidden\" name=\"walkingDistanceCumulative\" value\"".  $_POST['walkingDistanceCumulative'] ."\">";
-	echo "<input type=\"hidden\" name=\"walkingSpeedCurrent\" value\"".  $_POST['walkingSpeedCurrent'] ."\">";
-	*/
-	
 		
 }
 
@@ -155,18 +129,8 @@ if($_POST['id'] != null){
 		default:
 			break;
 	}
-	//echo "<input  type=\"submit\">";
-	//echo "</form>";
-/*
-	echo "<script type='text/javascript'>
-		submitform();
-	      </script>";
-	    */  
-	    
-	mysqli_close($con);
-	
 
-	
+	mysqli_close($con);
 }
 
 echo "</body>";
