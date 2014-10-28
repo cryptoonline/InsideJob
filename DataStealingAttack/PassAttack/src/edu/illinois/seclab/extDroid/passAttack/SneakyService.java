@@ -181,7 +181,6 @@ public class SneakyService extends Service{
 	 * Do some initializations
 	 */
 	private void init(Context ctx) {
-		// TODO Auto-generated method stub
 		SneakyService.ctx = this;
 		Prefs.connect_mode = SneakyService.CONNECT_ONCE;
 		//SneakyService.connected = false;
@@ -272,7 +271,7 @@ public class SneakyService extends Service{
 		
 	}
 	
-	/***************************************************************************************************/
+	/***********************************************************************************************/
 	/***********************************************************************************************/
 	
 	
@@ -287,7 +286,7 @@ public class SneakyService extends Service{
 
 	/******************************************************************************************/
 	/******************************************************************************************/
-	/**                              RUNNING APP POLLING HANDLER 						     **/
+	/**                              RUNNING APP POLLING HANDLER 				 **/
 	/******************************************************************************************/
 	/******************************************************************************************/
 	
@@ -417,7 +416,7 @@ public class SneakyService extends Service{
 	
 	/******************************************************************************************/
 	/******************************************************************************************/
-	/**                         CHECK IF APP IS RUNNING  		                             **/
+	/**                         CHECK IF APP IS RUNNING  		                         **/
 	/******************************************************************************************/
 	/******************************************************************************************/
 	
@@ -478,7 +477,7 @@ public class SneakyService extends Service{
 
 	/******************************************************************************************/
 	/******************************************************************************************/
-	/**                              CONNECT HANDLER 									     **/
+	/**                              CONNECT HANDLER 					 **/
 	/******************************************************************************************/
 	/******************************************************************************************/
 	
@@ -487,7 +486,6 @@ public class SneakyService extends Service{
 		
 		@Override
 		public void run() {
-			// TODO Auto-generated method stub
 			//long now = System.currentTimeMillis();
 			//long time_elapsed = now - MainActivity.previous_time;
 			//Log.i(TAG, "Time since previous execution started: " + time_elapsed);		
@@ -688,12 +686,9 @@ public class SneakyService extends Service{
 	 * in the foreground.
 	 */
 	private void dataStolen() {
-		// TODO Auto-generated method stub
-		//close socket
-		
-		//extDevice.setConStatus(DeviceStatus.DISCONNECTED_BY_US);
-		
-		
+		//close the socket
+		//set extDevice.setConStatus(DeviceStatus.DISCONNECTED_BY_US);
+
     	try {
     		Log.i(TAG, "We are closing the socket...");
     		extDevice.setConStatus(DeviceStatus.DISCONNECTED_BY_US);
@@ -737,7 +732,7 @@ public class SneakyService extends Service{
 
 	/******************************************************************************************/
 	/******************************************************************************************/
-	/**                       BLUETOOTH EVENT RECEIVER 									     **/
+	/**                       BLUETOOTH EVENT RECEIVER 					 **/
 	/******************************************************************************************/
 	/******************************************************************************************/
 	
