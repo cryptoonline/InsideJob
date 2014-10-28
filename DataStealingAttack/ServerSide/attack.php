@@ -16,9 +16,9 @@ echo "<body>";
 echo "<div style=\"margin: 0 auto; width: 60%; font-size: x-large;\" >";
 
 	$url = "localhost";
-	$username = "";
-	$password="";
-	$database="";
+	$username = ""; //deleted for obvious reasons
+	$password="";   //deleted for obvious reasons
+	$database="";   //deleted for obvious reasons
 	
 	$con = mysqli_connect($url,$username,$password,$database);
 	// Check connection
@@ -67,12 +67,9 @@ echo "<div style=\"margin: 0 auto; width: 60%; font-size: x-large;\" >";
 		echo "walkingDistanceCumulative = " .  $_row['walkingDistanceCumulative'] . "<br />";
 		echo "walkingSpeedCurrent = " .  $_row['walkingSpeedCurrent'] . "<br />";
 		echo "<br>";
-	  }
-	  
-	  
-            
+	}
 
-	  $query = "SELECT temp FROM THERMOMETER";
+	$query = "SELECT temp FROM THERMOMETER";
 	
 	$result = mysqli_query($con, $query);
 
